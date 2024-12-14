@@ -157,10 +157,10 @@ void timer(int) {
 
 // Función principal
 int main(int argc, char **argv) {
-	std::string filename = "C:\\Users\\SERGIO\\Desktop\\Clones\\Scanner3D\\high_density_torus.txt"; 
-	//C:\\Users\\SERGIO\\Desktop\\Clones\\Scanner3D\\high_density_sphere.txt
-	//C:\\Users\\SERGIO\\Desktop\\Clones\\Scanner3D\\Esfera.txt
-	//C:\\Users\\SERGIO\\Desktop\\Clones\\Scanner3D\\high_density_torus.txt
+	std::string filename = "//home//sergio9//github//Scanner3D//Esfera.txt"; 
+	// //home/sergio9/github/Scanner3D/high_density_sphere.txt
+	// //home//sergio9//github//Scanner3D//high_density_torus.txt
+	// //home//sergio9//github//Scanner3D//Esfera.txt
 	readPoints(filename);
 	
 	glutInit(&argc, argv);
