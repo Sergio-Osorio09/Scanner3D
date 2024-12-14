@@ -157,7 +157,10 @@ void timer(int) {
 
 // Función principal
 int main(int argc, char **argv) {
-	std::string filename = "C:\\Users\\SERGIO\\Desktop\\Clones\\Grupo6_ComputacionVisual\\Proyecto\\dodecaedro.txt";
+	std::string filename = "C:\\Users\\SERGIO\\Desktop\\Clones\\Scanner3D\\high_density_torus.txt"; 
+	//C:\\Users\\SERGIO\\Desktop\\Clones\\Scanner3D\\high_density_sphere.txt
+	//C:\\Users\\SERGIO\\Desktop\\Clones\\Scanner3D\\Esfera.txt
+	//C:\\Users\\SERGIO\\Desktop\\Clones\\Scanner3D\\high_density_torus.txt
 	readPoints(filename);
 	
 	glutInit(&argc, argv);
