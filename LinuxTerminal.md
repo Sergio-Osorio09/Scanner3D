@@ -37,6 +37,15 @@ Usa el siguiente comando para compilar el programa:
 g++ -fshow-column -fno-diagnostics-show-caret -g modelado.cpp \
     -Wall -pedantic-errors -O0 -Werror=return-type -std=c++14 \
     -o modelado.bin -lGL -lGLU -lglut
+
+
+#caso mio
+g++ -fshow-column -fno-diagnostics-show-caret -g /home/sergio9/github/Scanner3D/modelado.cpp \
+    -Wall -pedantic-errors -O0 -Werror=return-type -std=c++14 -o /home/sergio9/github/Scanner3D/modelado.bin \
+    -lGL -lGLU -lglut
+
+#luego
+/home/sergio9/github/Scanner3D/modelado.bin
 ```
 
 Esto generará el ejecutable `modelado.bin` en el directorio del proyecto.
