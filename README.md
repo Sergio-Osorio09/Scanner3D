@@ -1,4 +1,4 @@
-# 3D Viewer with Zoom and Improved Visualization
+# 3D Scanner code c++ con Zinjal 
 
 Este repositorio contiene un visor 3D que renderiza modelos a partir de archivos OBJ utilizando OpenGL y GLUT. Permite visualizar y manipular modelos 3D con funciones como rotación y zoom. Es ideal para explorar representaciones geométricas y aprender cómo manejar archivos OBJ.
 
